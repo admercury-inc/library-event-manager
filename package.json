@@ -1,0 +1,43 @@
+{
+  "name": "library-event-manager",
+  "version": "1.0.3",
+  "description": "Namespace and action based multi level events management for node and web applications",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admercury-inc/library-event-manager.git"
+  },
+  "author": "Admercury | Emrah Gunduz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/admercury-inc/library-event-manager/issues"
+  },
+  "homepage": "https://admercury-inc.github.io/library-event-manager/",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "mocha --reporter spec",
+    "docs": "typedoc --out docs --mode file src",
+    "github-pages": "rimraf docs && npm run docs && gh-pages -d docs",
+    "publish": "git add . && git commit -m 'Production commit' && git push",
+    "distribute": "npm run build && npm run test && npm run github-pages && npm run publish"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.8",
+    "chai": "^4.2.0",
+    "gh-pages": "^2.0.1",
+    "mocha": "^6.1.4",
+    "tslint": "^5.17.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.2"
+  }
+}

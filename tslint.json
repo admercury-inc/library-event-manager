@@ -1,0 +1,38 @@
+{
+  "lintOptions": {
+    "typeCheck": true
+  },
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "no-var-requires": false,
+    "ordered-imports": false,
+    "space-before-function-paren": true,
+    "import-spacing": false,
+    "interface-name": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "max-line-length": {
+      "options": [
+        200
+      ]
+    },
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    },
+    "no-bitwise": false,
+    "only-arrow-functions": false,
+    "no-empty-interface": false
+  }
+}
