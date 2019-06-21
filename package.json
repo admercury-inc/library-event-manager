@@ -1,6 +1,6 @@
 {
   "name": "@emrahgunduz/library-event-manager",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "Namespace and action based multi level events management for node and web applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -26,8 +26,7 @@
     "test": "mocha --reporter spec",
     "docs": "typedoc --out docs --mode file src",
     "github-pages": "rimraf docs && npm run docs && gh-pages -d docs",
-    "publish": "git add . && git commit -m 'Production commit' && git push",
-    "distribute": "npm run build && npm run test && npm run github-pages && npm run publish"
+    "distribute": "npm run build && npm run test && npm run github-pages && npm publish"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
