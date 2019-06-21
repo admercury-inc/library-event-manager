@@ -1,5 +1,5 @@
 {
-  "name": "library-event-manager",
+  "name": "@emrahgunduz/library-event-manager",
   "version": "1.0.3",
   "description": "Namespace and action based multi level events management for node and web applications",
   "main": "lib/index.js",
