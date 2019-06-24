@@ -1,4 +1,3 @@
-###### Admercury
 # Event Manager
 
 Namespace and action based multi level events management for node and web applications.
