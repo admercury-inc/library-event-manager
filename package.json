@@ -1,6 +1,6 @@
 {
-  "name": "@emrahgunduz/library-event-manager",
-  "version": "1.0.11",
+  "name": "library-event-manager",
+  "version": "1.0.12",
   "description": "Namespace and action based multi level events management for node and web applications",
   "keywords": [
     "event",
@@ -13,14 +13,14 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/admercury-inc/library-event-manager.git"
+    "url": "git+https://github.com/emrahgunduz/library-event-manager.git"
   },
-  "author": "Admercury | Emrah Gunduz",
+  "author": "Emrah Gunduz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/admercury-inc/library-event-manager/issues"
+    "url": "https://github.com/emrahgunduz/library-event-manager/issues"
   },
-  "homepage": "https://admercury-inc.github.io/library-event-manager/",
+  "homepage": "https://emrahgunduz.github.io/library-event-manager/",
   "engines": {
     "node": ">=10"
   },
