@@ -1,7 +1,14 @@
 {
   "name": "@emrahgunduz/library-event-manager",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Namespace and action based multi level events management for node and web applications",
+  "keywords": [
+    "event",
+    "events",
+    "namespace",
+    "notify",
+    "protocol"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
