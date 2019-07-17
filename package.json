@@ -1,11 +1,15 @@
 {
   "name": "library-event-manager",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Namespace and action based multi level events management for node and web applications",
   "keywords": [
     "event",
     "events",
+    "event manager",
+    "event emitter",
     "namespace",
+    "dispatcher",
+    "listener",
     "notify",
     "protocol"
   ],

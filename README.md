@@ -3,7 +3,7 @@
 Namespace and action based multi level events management for node and web applications.
 
 This module can be used to pass variables from system to system in a stateless environment. 
-A part can listen to an event, and another can raise the event. 
+A part can listen to an event, and another can raise this event. 
 Methods can be set as chained promise calls or async.
 
 ### Global access
