@@ -1,8 +1,8 @@
 {
-  "name": "library-event-manager",
-  "version": "1.0.16",
-  "description": "Namespace and action based multi level events management for node and web applications",
-  "keywords": [
+  "name"           : "library-event-manager",
+  "version"        : "1.0.17",
+  "description"    : "Namespace and action based multi level events management for node and web applications",
+  "keywords"       : [
     "event",
     "events",
     "event manager",
@@ -13,41 +13,42 @@
     "notify",
     "protocol"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "repository": {
+  "main"           : "lib/index.js",
+  "types"          : "lib/index.d.ts",
+  "repository"     : {
     "type": "git",
-    "url": "git+https://github.com/emrahgunduz/library-event-manager.git"
+    "url" : "git+https://github.com/emrahgunduz/library-event-manager.git"
   },
-  "author": "Emrah Gunduz",
-  "license": "MIT",
-  "bugs": {
+  "author"         : "Emrah Gunduz",
+  "license"        : "MIT",
+  "bugs"           : {
     "url": "https://github.com/emrahgunduz/library-event-manager/issues"
   },
-  "homepage": "https://emrahgunduz.github.io/library-event-manager/",
-  "engines": {
+  "homepage"       : "https://emrahgunduz.github.io/library-event-manager/",
+  "engines"        : {
     "node": ">=10"
   },
-  "files": [
+  "files"          : [
     "lib/**/*"
   ],
-  "scripts": {
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "test": "mocha --reporter spec",
-    "docs": "typedoc --out docs --mode file src --theme minimal",
+  "scripts"        : {
+    "lint"        : "tslint -c tslint.json 'src/**/*.ts'",
+    "build"       : "npm run lint && tsc",
+    "build:watch" : "npm run lint && tsc --watch",
+    "test"        : "mocha --reporter spec",
+    "docs"        : "typedoc --out docs --mode file src --theme minimal",
     "github-pages": "rimraf docs && npm run docs && gh-pages -d docs",
-    "distribute": "npm run build && npm run test && npm run github-pages && npm publish"
+    "distribute"  : "npm run build && npm run test && npm run github-pages && npm publish"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
+    "@types/chai" : "^4.1.7",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.0.8",
-    "chai": "^4.2.0",
-    "gh-pages": "^2.0.1",
-    "mocha": "^6.1.4",
-    "tslint": "^5.17.0",
-    "typedoc": "^0.14.2",
-    "typescript": "^3.5.2"
+    "@types/node" : "^12.0.8",
+    "chai"        : "^4.2.0",
+    "gh-pages"    : "^2.0.1",
+    "mocha"       : "^6.1.4",
+    "tslint"      : "^5.17.0",
+    "typedoc"     : "^0.14.2",
+    "typescript"  : "^3.5.2"
   }
 }
