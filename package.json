@@ -38,7 +38,7 @@
     "test"        : "mocha --reporter spec",
     "docs"        : "typedoc --out docs --mode file src --theme minimal",
     "github-pages": "rimraf docs && npm run docs && gh-pages -d docs",
-    "distribute"  : "npm run build && npm run test && npm run github-pages && npm publish"
+    "distribute"  : "npm run build && npm run test && npm publish"
   },
   "devDependencies": {
     "@types/chai" : "^4.1.7",
