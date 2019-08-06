@@ -37,7 +37,7 @@
     "build:watch": "npm run lint && tsc --watch",
     "test": "mocha --reporter spec",
     "docs": "typedoc --out docs --mode file src --theme minimal",
-    "github-pages": "rimraf docs && npm run docs && gh-pages -d docs",
+    "github-pages": "rimraf docs && npm run docs && gh-pages -d docs --git \"$(which git)\"",
     "distribute": "npm run build && npm run test && npm publish"
   },
   "devDependencies": {
