@@ -1,4 +1,5 @@
 # Event Manager
+[![Maintainability](https://api.codeclimate.com/v1/badges/04c42cf24d3d839028a8/maintainability)](https://codeclimate.com/github/emrahgunduz/library-event-manager/maintainability)
 
 Namespace and action based multi level events management for node and web applications.
 

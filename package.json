@@ -1,6 +1,6 @@
 {
   "name": "library-event-manager",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Namespace and action based multi level events management for node and web applications",
   "keywords": [
     "event",
